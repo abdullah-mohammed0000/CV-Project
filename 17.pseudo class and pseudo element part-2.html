@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudo Class and Pseudo Element part(2)</title>
+        <style>
+        /*p:first-child{
+            background-color: black;
+            color: aliceblue;
+        }
+        p:nth-child(2){
+            background-color: black;
+            color: aliceblue;
+        }
+      li:nth-child(even)
+      {background-color:black ;
+              color:aliceblue;}
+     li:first-of-type{
+                background-color: black;
+                color: azure;
+              } */
+              ::selection{
+                color:aqua;
+                font-size: 3rem;
+
+              }
+              .demo::before{
+                content:"";
+                width: 150px;
+                height: 20px;
+                background-color: black;
+                display: inline-block;
+                
+                
+              }
+    </style>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+            sed.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+            cupiditate.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+            placeat.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, et.</p>
+        <ol>
+            <li>ramadan</li>
+            <li>ramadan</li>
+            <li>ramadan</li>
+            <li>ramadan</li>
+            <li>ramadan</li>
+        </ol>
+        <br><br>
+        <div class="demo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+                amet quas necessitatibus laborum tempore iste sit aspernatur
+                sunt quis tenetur, dolor molestiae ex, saepe numquam dolore
+                doloremque id veritatis sequi.</p>
+        </div>
+    </body>
+</html>

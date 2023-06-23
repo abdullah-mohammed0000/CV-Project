@@ -1,0 +1,12 @@
+/*a = ID
+b = Classes, attributes and pseudo-classes
+c = Elements and pseudo-elements
+*/ 
+
+
+/*a=0,b=0,c=1 =001*  , important=10000*/
+p{background-color: blueviolet !important;}
+/*a=0,b=1,c=0 =010*/
+.title{background-color: burlywood;}
+/*a=1,b=0,c=0 =100*/
+#para{background-color: aqua;}

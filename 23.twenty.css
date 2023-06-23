@@ -1,0 +1,26 @@
+#box{
+width: 50%;
+background-color: olive;
+padding: 10px;
+box-sizing: border-box;
+border: solid darkcyan;
+
+}
+#sizing
+{
+width: 50%;
+background-color: salmon;
+
+}
+img{
+width: 500px;
+height: 250px;
+box-sizing: border-box;
+
+}
+#opacity{
+    opacity: 0.5;
+}
+#opacity:hover{
+    opacity: 1;
+}

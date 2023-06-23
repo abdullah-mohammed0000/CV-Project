@@ -1,0 +1,210 @@
+body{
+background-color: gainsboro;
+margin-top: 10px;
+padding: 0px;
+}
+#firstbox{
+width: 1000px;
+margin: auto;
+background-color:thistle;
+}
+.firstleft{
+
+width: 50%;
+height:120px;
+background-color:greenyellow;
+}
+.profilepicture{
+width: 20%;
+height: 100%;
+float: left;
+}
+img{
+width: 100%;
+height: 80%;
+padding: 10%;
+}
+.bio{
+   
+   
+    float: left;
+    padding-left:4%;
+    
+}
+.bio h3{
+    margin: 0%;
+    margin-top: 11%;
+}
+.bio h4{
+
+    margin: 0%;
+}
+
+.firstright{
+width: 50%;
+
+float: right;
+
+}
+
+.firstright h4{
+position: absolute;
+top: 0;
+text-align: center;
+padding-left: 130px;
+margin-top: 50px;
+
+
+}
+
+
+#education{
+width: 1000px;
+height: 140px;
+margin: auto;
+}
+.education-left{
+width: 50%;
+height: 100px;
+padding-top: 40px;
+text-align: center;
+float: left;
+background-color: greenyellow;
+}
+.education-right{
+width: 50%;
+height: 140px;
+float: right;
+background-color: thistle;
+
+}
+.clear{
+    clear: both;
+}
+
+#work{
+
+    width: 1000px;
+    margin: auto;
+}
+
+.experience{
+width: 50%;
+float: left;
+height:60px;
+padding-top:20px ;
+padding-bottom: 20px;
+text-align: center;
+background-color: greenyellow;
+}
+.details{
+    width: 50%;
+    height: 100px;
+    float: right;
+    background-color: thistle;
+}
+li{
+
+   margin: 1px;
+   color: black;
+}
+
+#skills{
+width: 1000px;
+margin: auto;
+}
+
+.skillsleft{
+
+width: 50%;
+float: left;
+text-align: center;
+height: 100px;
+padding-top: 40px;
+background-color:#2FBF71 ;
+}
+
+.skillsright{
+width: 50%;
+float: right;
+height: 140px;
+background-color: #E8E9F4;
+
+}
+#career{
+    width: 1000px;
+    margin: auto;
+}
+.careerleft{
+width: 50%;
+float: left;
+height: 50px;
+text-align: center;
+background-color: #2FBF71;
+
+}
+.careerright{
+width: 50%;
+float: right;
+height:50px;
+
+background-color:#E8E9F4 ;
+
+
+}
+.careerright h3{
+
+    margin-left: 20px;
+}
+
+#address{
+    width: 1000px;
+    margin: auto;
+}
+.addressleft{
+    width: 50%;
+    float: left;
+    height: 50px;
+    text-align: center;
+    background-color: #2FBF71;
+    
+    }
+    .addressright{
+    width: 50%;
+    float: right;
+    height:50px;
+    
+    background-color:#E8E9F4 ;
+    
+    
+    }
+    .addressright h3{
+    
+        margin-left: 20px;
+    }
+
+    #footer{
+        background-color: black;
+        width: 1000px;
+        margin: auto;
+    }
+    .icon{
+        width: 50%;
+      color: white;
+        height: 150px;
+        text-align: center;
+        background-color: black;
+     
+        float: left;
+    }
+    .aboutme{
+        width: 50%;
+        color: white;
+        float:right;
+       background-color: black;
+        height: 150px;
+
+    }
+    .aboutme p{
+        margin-left: 15px;
+    }

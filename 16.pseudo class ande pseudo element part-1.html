@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudo Class and Pseudo Element</title>
+        <style>
+            a.mylink:hover{
+                color: green;
+            }
+            input{ padding: 20px;
+                font-size: 1rem;
+                max-width:150px;
+
+            }
+            /*input:hover{
+                background-color: brown;
+            }*/
+            input:focus{
+                background-color: brown;
+            }
+            table,tr,td{
+                border: 1px solid green;
+            }
+            tr:nth-child(even){
+                background-color: aqua;
+            }
+            p:hover{
+                color:aquamarine;
+            }
+            p::first-line{
+                color:blueviolet;
+                font-size: 2rem;
+            }
+            p::after{
+                content:">";
+            }
+            p::before{
+                content:"<";
+            }
+        </style>
+    </head>
+    <body>
+        <a class="mylink" href="#">Tutorial</a>
+        <a href="#">Home</a>
+        <input type="text" placeholder="Enter your name">
+        <br><br>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>AGE</td>
+            </tr>
+            <tr>
+                <td>Rifa</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>Rifat</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            similique fuga assumenda expedita quod accusamus quaerat vero natus,
+            itaque reiciendis possimus vel, totam alias minima necessitatibus ex
+            reprehenderit quos molestias?
+        </p>
+    </body>
+</html>

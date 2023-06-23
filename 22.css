@@ -1,0 +1,27 @@
+#navigation{
+width: 500px;
+height: 50px;
+background-color: olive;
+margin:0 auto;
+
+
+}
+#navigation ul{
+    text-decoration: none;
+}
+#navigation ul li{
+    list-style-type: none;
+    margin:20px;
+    float:left
+    
+}
+#navigation ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: grab;
+}
+#navigation ul li a:hover{
+    color:orange;
+    text-decoration:underline;
+}

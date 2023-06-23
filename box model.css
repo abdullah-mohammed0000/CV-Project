@@ -1,0 +1,18 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    background-color: blanchedalmond;
+    display: inline;
+    width: 50px;
+}
+
+span {
+    background-color: antiquewhite;
+    max-width: 50px;
+}
+
+p {
+    max-width: 1500px;
+}

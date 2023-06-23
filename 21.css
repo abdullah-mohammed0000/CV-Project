@@ -1,0 +1,21 @@
+#section1{
+background-image: radial-gradient(green,red);
+float: left;
+
+
+}
+#section2{
+
+background-image: linear-gradient(olive,green);
+float: right;
+
+}
+#section4
+{
+  clear: both;
+}
+#section3
+{
+background-color: brown;
+
+}
