@@ -1,0 +1,120 @@
+.card-design{
+
+height: 400px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+
+}
+
+.card1{
+
+height: 250px;
+width: 300px;
+border: 1px solid black;
+text-align: center;
+margin: 10px;
+
+background-color: teal;
+
+}
+
+.card1 img{
+height: 100px;
+width: 300px;
+
+}
+
+.card-design > .card1{
+
+font-family: 'Times New Roman', Times, serif;
+padding-bottom: 25px;
+
+
+}
+
+.card1:hover{
+box-shadow: 5px 5px goldenrod;
+
+}
+.card1 h2{
+    text-decoration: underline;
+}
+
+/*end of card 1*/
+
+
+.card2{
+
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    
+    background-color: teal;
+    
+    }
+
+    .card2 img{
+        height: 100px;
+        width: 300px;
+        
+        }
+
+        .card-design > .card2{
+
+            font-family: 'Times New Roman', Times, serif;
+            padding-bottom: 25px;
+
+            
+            
+            }
+
+            .card2:hover{
+                box-shadow: 5px 5px goldenrod;
+                
+                }
+                .card2 h2{
+                    text-decoration: underline;
+                }
+
+                /*end of card 2*/
+
+                .card3{
+
+                    height: 250px;
+                    width: 300px;
+                    border: 1px solid black;
+                    text-align: center;
+                    margin: 10px;
+                    
+                    background-color: teal;
+                    
+                    }
+                
+                    .card3 img{
+                        height: 100px;
+                        width: 300px;
+                        
+                        }
+                
+                        .card-design > .card3{
+                
+                            font-family: 'Times New Roman', Times, serif;
+                            padding-bottom: 25px;
+                
+                            
+                            
+                            }
+                
+                            .card3:hover{
+                                box-shadow: 5px 5px goldenrod;
+                                
+                                }
+                                .card3 h2{
+                                    text-decoration: underline;
+                                }
+                

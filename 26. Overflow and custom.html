@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and Custom</title>
+    <style>
+        .div1{
+
+          width: 250px;
+          height: 100px;
+          background-color: green;
+          border: 1px solid red;
+         overflow:auto;
+  }
+
+  .tool{
+position: relative;
+width: 250px;
+height: 100px;
+
+  }
+
+  .tooltext{
+        width: 100px;
+        background-color: blueviolet;
+        color: white;
+        position: absolute;
+        top: 15px;
+        visibility: hidden;
+  }
+
+  .tool:hover .tooltext{
+    visibility: visible;
+  }
+  .tool:hover{
+    background-color:aliceblue ;
+  }
+        
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quas possimus voluptatum qui dicta dolorum magni error natus delectus harum eum adipisci, quis magnam sapiente facilis, unde, reiciendis dolorem sit. Rerum, laboriosam aut quasi, necessitatibus ut neque nihil illum alias, eveniet sint incidunt voluptatem aliquid placeat error ducimus omnis modi.</p>
+</div>
+
+<br>
+<br>
+<a href="#" class="tool">FACEBOOK
+<span class="tooltext">Social Media Platform</span>
+</a>
+    
+</body>
+</html>

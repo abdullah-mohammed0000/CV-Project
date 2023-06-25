@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index and CSS3 Variables</title>
+    <style>
+
+     :root{
+
+        --primary-color:red;
+        --secondary-color:green;
+     }
+
+        div{
+             width: 250px;
+             height: 150px;
+        }
+        .div1{
+            background-color: olivedrab;
+            background: var(--primary-color);
+            position: absolute;
+            z-index: 1;
+        }
+        .div2{
+            background-color: olive;
+            background-color: var(--secondary-color);
+            position: absolute;
+            left: 200px;
+            top: 90px;
+            
+        }
+
+        @media screen and (max-width:700px) {
+            :root{
+
+--primary-color:blue;
+--secondary-color: violet;
+}
+
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+
+    </div>
+
+    <div class="div2">
+
+    </div>
+
+    
+    
+</body>
+</html>
